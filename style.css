@@ -1,5 +1,5 @@
 body {
-  background-color: #f5f5f5;
+  background-color: #ebeff3;
   font-family: "Roboto", sans-serif;
 }
 .chatBox {
@@ -124,17 +124,6 @@ div .textarea {
   width: 200px;
   float: right; /* Float from the right */
 }
-
-.userMessage::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 100%;
-  margin-top: -5px;
-  border-width: 5px;
-  width: 200px;
-}
-
 .chatbotMessage,
 .agentMessage {
   position: relative;
@@ -143,14 +132,4 @@ div .textarea {
   padding: 20px;
   margin: 8px;
   border-radius: 8px;
-}
-
-.chatbotMessage::before,
-.agentMessage::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: 100%;
-  margin-top: -5px;
-  border-width: 5px;
 }
