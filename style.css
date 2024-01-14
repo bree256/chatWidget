@@ -56,6 +56,9 @@ button {
   right: 0;
   transform: rotate(180deg);
 }
+.inputFeild {
+  position: fixed;
+}
 input {
   height: 60px;
   width: 390px;
@@ -100,6 +103,7 @@ div .textarea {
   height: 440px;
   padding: 0;
   border: none;
+  overflow-y: scroll;
 }
 
 .left {
