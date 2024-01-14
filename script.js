@@ -51,7 +51,7 @@ inputField.addEventListener("keydown", function (event) {
 
           // Scroll the textarea to the bottom to show the latest messages
           textarea.scrollTop = textarea.scrollHeight;
-        }, 1000); // 1000 milliseconds (1 second) delay for agent response
+        }, 2000); // 1000 milliseconds (1 second) delay for agent response
       }
     }, 1000); // 1000 milliseconds (1 second) delay for chatbot response
 
